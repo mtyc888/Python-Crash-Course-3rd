@@ -23,7 +23,7 @@ for row in reader:
         bright = float(row[2])
     except ValueError:
         print("Error with data")
-    else:
+    else: 
         lats.append(lat)
         lons.append(lon)
         brightness.append(bright)
